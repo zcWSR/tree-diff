@@ -32,5 +32,5 @@ Options:
 例如, 自动删除diff结果文件
 
 ```
-tree -s | rm -f
+tree -s | xargs rm
 ```
