@@ -1,0 +1,22 @@
+{
+  "name": "rtree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "tree": "./index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/parser": "^7.9.4",
+    "@babel/traverse": "^7.9.5",
+    "@babel/types": "^7.9.5",
+    "commander": "^5.0.0",
+    "lodash": "^4.17.15"
+  }
+}
