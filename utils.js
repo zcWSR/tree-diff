@@ -75,7 +75,7 @@ function addToTree(filePath, rootDir) {
 function resolveFile(filePath, rootDir) {
   try {
     const file = fs.readFileSync(filePath).toString();
-    const ast = babelParser.parse(file, { sourceType: 'module', plugins: ['jsx', 'flow', 'classProperties'] });
+    const ast = babelParser.parse(file, { sourceType: 'module', plugins: ['jsx', 'flow', 'classProperties', 'decorators-legacy'] });
     // 遍历页面节点
     babelTraverse(ast, {
       enter(path) {
