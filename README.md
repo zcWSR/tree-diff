@@ -12,10 +12,10 @@ npm link
 
 ## 使用方式
 
-自己看 `tree --help` 
+自己看 `tree-diff --help` 
 
 ```
-> tree --help
+> tree-diff --help
 Usage: tree [options]
 
 Options:
@@ -32,5 +32,5 @@ Options:
 例如, 自动删除diff结果文件
 
 ```
-tree -s | xargs rm
+tree-diff -s | xargs rm
 ```

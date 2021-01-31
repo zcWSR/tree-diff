@@ -7,10 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "tree": "./index.js"
+    "tree-diff": "./index.js"
   },
   "author": "",
   "license": "ISC",
+  "repository": "https://github.com/zcWSR/tree-diff",
   "dependencies": {
     "@babel/core": "^7.9.0",
     "@babel/parser": "^7.9.4",
