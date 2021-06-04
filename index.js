@@ -45,8 +45,6 @@ program.root = (program.root || process.cwd()).replace('~', os.homedir);
 program.entrance = program.entrance || 'index.js';
 program.output = parseOutputParam(program.output);
 
-program.root = '/Users/zcwsr/my/blog-admin-v2.5';
-program.entrance = './src/pages/entry.js';
 program.output = { tree: true, list: true, useless: true };
 const startPath = path.resolve(program.root, program.entrance);
 convertAlias(program.root);
